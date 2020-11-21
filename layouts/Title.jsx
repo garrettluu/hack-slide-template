@@ -6,7 +6,13 @@ const Title = ({children}) => {
     backgroundImage: `url(${titlebg})`,
     backgroundSize: 'cover',
     width: '100%',
-    height: '100vh'
+    height: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    paddingLeft: '10%',
+    color: 'white'
   }}
   >
     {children}
