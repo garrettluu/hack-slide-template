@@ -22,19 +22,9 @@ export default {
       fontSize: 84,
       fontWeight: 'heading',
     },
-    h1Orange: {
-      fontSize: 84,
-      fontWeight: 'heading',
-      color: 'primary',
-    },
     h2: {
       fontSize: 48,
       fontWeight: 'body',
     },
-    h2Orange: {
-      fontSize: 48,
-      fontWeight: 'body',
-      color: 'primary',
-    }
   }
 };
