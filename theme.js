@@ -19,7 +19,7 @@ export const pre = props => props.children
 
 export const code = props => {
   const language = getLanguage(props.className)
-  return <Prism language={language} style={prismThemes.cb} {...props} />
+  return <Prism language={language} style={prismThemes.prism} {...props} />
 }
 
 export default {
