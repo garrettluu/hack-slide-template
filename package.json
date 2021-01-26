@@ -16,10 +16,9 @@
     "url": "https://github.com/garrettluu/hack-slide-template/issues"
   },
   "homepage": "https://github.com/garrettluu/hack-slide-template#readme",
-  "devDependencies": {
-    "mdx-deck": "^4.0.0"
-  },
   "dependencies": {
+    "gatsby-source-filesystem": "^2.10.0",
+    "mdx-deck": "4.0.0",
     "theme-ui": "^0.3.3"
   }
 }
