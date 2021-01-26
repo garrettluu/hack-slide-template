@@ -1,16 +1,21 @@
 import React from "react";
 import logoBlank from "../images/logo-blank.svg";
 
-const Square = ({ innerText, imageSize, fontSize}) => {
+const Square = ({ style, className, innerText, imageSize, fontSize }) => {
   return (
-    <div style={{width: imageSize, height: imageSize}} className="square">
+    <div
+      style={{ ...style, width: imageSize, height: imageSize }}
+      className="square"
+    >
       <img
         style={{ width: imageSize, height: "auto" }}
-        className="square-image"
+        className={`square-image ${className}`}
         src={logoBlank}
         alt={innerText}
       />
-      <p style={{fontSize: fontSize}} className="subtitle">{innerText}</p>
+      <p style={{ fontSize: fontSize }} className="subtitle">
+        {innerText}
+      </p>
       <style jsx>{`
         .square {
           display: flex;

@@ -1,68 +1,82 @@
-import { Invert } from 'mdx-deck';
+import { Invert } from "mdx-deck";
 
-import Title from './layouts/Title';
-import CheckIn from './layouts/CheckIn';
-import Section from './layouts/Section';
-import SectionNumber from './layouts/SectionNumber';
-import TextSlide from './layouts/TextSlide';
-import HackFooter from './components/HackFooter';
+import Title from "./layouts/Title";
+import CheckIn from "./layouts/CheckIn";
+import CheckInButton from "./layouts/CheckInButton";
+import Section from "./layouts/Section";
+import SectionNumber from "./layouts/SectionNumber";
+import TextSlide from "./layouts/TextSlide";
+import HackFooter from "./components/HackFooter";
 
-import hackTheme from './theme';
+import hackTheme from "./theme";
 export const theme = hackTheme;
 
-import hackLogo from './images/logo-with-text.svg';
-
+import hackLogo from "./images/logo-with-text.svg";
 
 # Hack Slides
 
-<HackFooter/>
+<HackFooter />
 
 ---
 
 # Titles
+
 ## For beginning presentations
-<HackFooter/>
+
+<HackFooter />
 
 ---
 
-<Title>
+<Title darkMode>
+
+
+ACM Hack presents:
 
 # Lorem Ipsum
+
 ## Dolor sit amet
 
 </Title>
 
+
 ---
 
-<CheckIn
-    code="l33t"
-/>
+<CheckIn code="l33t" />
+
+---
+
+<CheckInButton code="l33t" />
 
 ---
 
 <Section>
 
+
 # Lorem Ipsum
+
 ## Dolor sit amet
 
 </Section>
 
----
-
-<SectionNumber number="1" text="Lorem ipsum dolor"/>
 
 ---
 
-<SectionNumber number="2" text="Lorem ipsum dolor"/>
+<SectionNumber number="1" text="Lorem ipsum dolor" />
 
 ---
 
-<SectionNumber number="3" text="Lorem ipsum dolor"/>
+<SectionNumber number="2" text="Lorem ipsum dolor" />
+
+---
+
+<SectionNumber number="3" text="Lorem ipsum dolor" />
 
 ---
 
 <TextSlide>
 
+
 This is a test with a **really long line** I hope it still wraps and looks kinda good pls? What else do I type anymore
 
 </TextSlide>
+
